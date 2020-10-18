@@ -2,7 +2,7 @@
 galaxy_info:
   author: Paralect, LLC
   description: Drone CI deployment with Github integration and PostgreSQL database
-  company: paralect
+  company: JensTimmerman
   license: MIT
   min_ansible_version: 1.2
   platforms:
