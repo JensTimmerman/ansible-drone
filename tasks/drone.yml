@@ -1,7 +1,7 @@
 - name: run drone server
   docker_container:
     name: drone-server
-    image: "{{ drone_dockerhub_namespace }}/drone:{{drone_version}}"
+    image: "drone/drone:{{drone_version}}"
     state: started
     restart_policy: always
     ports:
